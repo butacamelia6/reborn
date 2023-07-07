@@ -1,0 +1,27 @@
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color: var(--secondary-color);
+    padding: 10px 10px;
+    margin-top: 3em;
+}
+
+h1{
+    font-size: 20px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+a:hover{
+    color: var(--primary-color);
+}
+.links{
+    justify-content: space-between;
+    padding: 0px 50px 20px;
+}

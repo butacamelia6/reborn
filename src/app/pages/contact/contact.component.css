@@ -1,0 +1,8 @@
+.btn{
+    color: var(--secondary-color);
+    background-color: var(--blue-text);
+    cursor: pointer;
+}
+h1{
+    color: var(--primary-color);
+}

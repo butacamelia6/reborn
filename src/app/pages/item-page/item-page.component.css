@@ -1,0 +1,44 @@
+.btn{
+    color: var(--secondary-color);
+    background-color: var(--blue-text);
+    cursor: pointer;
+}
+.back{
+  padding: 0.5em 2em;
+  margin: 2.4em;
+}
+form
+{    
+    margin-top: 10%;
+    width: 50%;
+}
+h1{
+    color: var(--primary-color);
+    padding: 0 0.7em;
+}
+p{
+    padding: 0 1.7em;
+    
+}
+#price {
+    font-weight: bold;
+    color: var(--primary-color)
+}
+#details{
+    font-weight: lighter;
+    color: var(--green-text)
+}
+img 
+{
+    border-radius: 1em;
+    padding: 0 2em;
+    width: 30em;
+    height: 35em;
+    object-fit: cover;
+}
+@media screen and (max-width:600px) {
+    form 
+    {
+        width: 100%;
+    }
+}

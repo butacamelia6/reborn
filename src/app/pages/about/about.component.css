@@ -1,0 +1,15 @@
+h1{
+    font-size: 5em;
+    font-weight: bold;
+  
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #7fe3ef, #dfc9df);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+}
+
+p{
+    color: var(--green-text);
+    font-weight: bold;
+}

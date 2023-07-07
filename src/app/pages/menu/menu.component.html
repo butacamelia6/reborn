@@ -1,0 +1,13 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let it of itemData">
+            <div class="itemBox">
+                <img src="{{it.itemImg}}">
+                <h1>{{it.itemName}}</h1>
+                <p id="details">{{it.itemDetails}}</p>
+                <p>{{it.itemPrice|currency:'RON':'symbol-narrow'}}</p>
+                <a class="buyBtn" [routerLink]="['/item', it.id]">Rent it now&nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
